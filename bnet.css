@@ -1,0 +1,92 @@
+body{
+    background:rgba(0, 0, 0, 0.4)  url(net.jpg);
+    background-blend-mode: darken ;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.submain{
+    padding-left: 2px;
+    padding-right: 5px;
+    padding-top: 2px;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.img{
+    width: 20%;
+    color: red;
+}
+.button{
+    padding: 8px 13px;
+    color: white;
+    cursor: pointer;
+    background-color: red;
+    display: inline-block;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 2px;
+}
+select{
+    margin-left: 65%;
+    padding: 8px;
+
+}
+.head
+{
+    color: white; 
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 32%;
+}
+.head h1{
+    font-size: 50px;
+    text-align: center;
+
+}
+.head h2{
+    font-size: 30px;
+    text-align: center;
+}
+.head h4{
+    text-align: center;
+    font-size: 20px;
+    
+}
+.mail{
+    width: 700px;
+    margin-left:30% ;
+    margin-top: 270px;
+}
+.mail input{
+    height: 30px;
+    width: 400px;
+    margin: auto;
+    padding: 5px;
+    font-size: 15px;
+    outline: none;
+}
+.mail button{
+    margin: auto;
+    height: 43px;
+    width: 170px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    padding: 5px;
+    background: #e50914;
+    border: #e50914;
+    cursor: pointer;
+    outline: none;
+    margin-left: -5px;  
+    
+}
+
+
+.mail button a{
+    text-decoration: none;
+    color: white;
+}
